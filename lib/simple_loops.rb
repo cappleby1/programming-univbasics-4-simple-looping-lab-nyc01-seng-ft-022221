@@ -34,7 +34,7 @@ def return_string_array(array)
   i = 0 
   str = ''
   while array[i] do
-    binding.pry
+    #binding.pry
     str = str + array[i].to_s
     i += 1 
   end
