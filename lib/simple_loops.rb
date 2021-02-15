@@ -32,11 +32,11 @@ end
 
 def return_string_array(array)
   i = 0 
-  str = ''
+  new_array = []
   while array[i] do
     #binding.pry
-    str = str + array[i].to_s
+    new_array << array[i].to_s
     i += 1 
   end
-  return str
+  return new_array
 end 
