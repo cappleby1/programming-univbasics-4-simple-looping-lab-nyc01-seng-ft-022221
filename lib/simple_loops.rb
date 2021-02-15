@@ -32,7 +32,7 @@ def return_string_array(array)
   i = 0 
   str = ''
   while array[i] do
-    str += array[i]
+    str = str + array[i]
     i += 1 
   end
   
